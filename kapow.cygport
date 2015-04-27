@@ -1,0 +1,18 @@
+# does not work quite right with Qt5, try again with next version
+inherit qt4-qmake
+
+NAME="kapow"
+VERSION=1.4.4
+RELEASE=1
+CATEGORY="Utils"
+SUMMARY="Qt punch clock program"
+DESCRIPTION="Kapow is a punch clock program designed to easily keep track of
+your hours, whether you’re working on one project or many. Simply clock in and
+out with the Start/Stop button. If you make a mistake in your hours, you can go
+back and edit any of the entries by double-clicking on the session in question.
+Kapow also allows you to easily keep track of the hours since you last billed
+a client."
+HOMEPAGE="http://gottcode.org/kapow/"
+SRC_URI="http://gottcode.org/kapow/${NAME}-${VERSION}-src.tar.bz2"
+
+CYGQMAKE4_ARGS="PREFIX=/usr"
