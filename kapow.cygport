@@ -1,8 +1,7 @@
-# does not work quite right with Qt5, try again with next version
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="kapow"
-VERSION=1.4.4
+VERSION=1.5.3
 RELEASE=1
 CATEGORY="Utils"
 SUMMARY="Qt punch clock program"
@@ -15,4 +14,4 @@ a client."
 HOMEPAGE="http://gottcode.org/kapow/"
 SRC_URI="http://gottcode.org/kapow/${NAME}-${VERSION}-src.tar.bz2"
 
-CYGQMAKE4_ARGS="PREFIX=/usr"
+CYGQMAKE5_ARGS="PREFIX=/usr"
